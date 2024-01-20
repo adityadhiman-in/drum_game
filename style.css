@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+:root{
+    --big-font:5rem;
+    --med-font:3rem;
+    --text-font:1.4rem;
+    --bg-color: #040020;
+    --sec-bg-color: #ff006f;
+    --text-color:#fff;
+    --main-color:#FFED00;
+}
+body{
+    background-color: var(--bg-color);
+}
+.heading-container{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.heading-container h1{
+    color: var(--main-color);
+    font-weight: 800;
+    font-size: var(--big-font);
+}
+.heading-container img{
+    position: relative;
+    width: 24vw;
+}
+.drum-container{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.drum{
+    border: 3px solid var(--main-color);
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px var(--main-color);
+    padding: 60px;
+    color: var(--main-color);
+    text-shadow: 1px 1px 10px var(--bg-color);
+    font-size: var(--med-font);   
+
+}
+.a{
+    background: url(tom1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.s{
+    background: url(tom2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.d{
+    background: url(tom3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.f{
+    background: url(tom4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.g{
+    background: url(snare.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.h{
+    background: url(kick.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.j{
+    background: url(crash.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pressed{
+    opacity: .5;
+}
