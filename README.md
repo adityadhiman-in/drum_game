@@ -4,6 +4,8 @@
 
 This project is a simple drum kit web application that allows users to play different drum sounds by clicking on buttons or pressing keyboard keys. The drum kit UI includes buttons for each drum sound, and each button triggers a corresponding sound effect. The project also includes visual feedback by adding an animation to the buttons when they are pressed.
 
+We have forked this repository and we are working to improve the ui.
+
 ## Features
 
 - **Drum Sound Effects:** Plays different drum sounds when buttons are clicked or specific keys are pressed.
